@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./source/favicon.ico" rel="icon" type="image/x-icon" />
+    <title>Starbucks ladning page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" class="logo"><img src="./source/starbucks-logo-png-1666.png" class="logo"></a>
+            <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="navigation">
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Rewards</a></li>
+            <li><a href="#">What's new</a></li>
+            <li><a href="#">Gift card</a></li>
+        </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>It's not just coffee<br>It's <span>Starbucks</span></h2>
+                <p>
+                   Sip your way to a summer of so much yes.<br>
+                   Try our fun new Menu Matcha Creme Frappuccino, <br>
+                   Guatemala Huehuetenango Starbucks Reserve®, <br>
+                   starbucks VIA® Sweetened Iced Coffee <br>
+                    <a href="#">Order Our best Menu</a>
+                </p>
+            </div>
+            <div class="imgbox">
+                <img src="./source/img1.png" alt="" class="starbucks">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="./source/thumb1.png" alt="" onclick="imgSlider('source/img1.png');changeCircleColor('#017143')"></li>
+            <li><img src="./source/thumb2.png" alt="" onclick="imgSlider('source/img2.png');changeCircleColor('#496937')"></li>
+            <li><img src="./source/thumb3.png" alt="" onclick="imgSlider('source/img3.png');changeCircleColor('#73983C')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="./source/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="./source/instagram.png" alt=""></a></li>
+            <li><a href="#"><img src="./source/twitter.png" alt=""></a></li>
+        </ul>
+    </section>
+
+<script src="./script.js"></script>
+</body>
+</html>
